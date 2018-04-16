@@ -26,3 +26,4 @@ services:
     links:
       - kafka
       - zookeeper
+      - mongo

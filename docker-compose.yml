@@ -14,3 +14,9 @@ services:
     image: 'r.cfcr.io/javicodema/agentsi2a:agentsi2a'
     ports:
       - '8080'
+  incidashboard:
+    image: 'r.cfcr.io/javicodema/incidashboardi2a:incidashboardi2a'
+    ports:
+      - '8082'
+    depends_on:
+      - zookeeper

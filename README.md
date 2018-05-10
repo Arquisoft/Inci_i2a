@@ -32,7 +32,7 @@ To deploy the complete application, we need to have the Agents, InciManager and 
 - If the build succeeds (if you don't change anything in the repository, it should), we will have our images created and stored in the Codefresh registry. We could check the URI by clicking on the Images section of the page and then clicking on the image of the module we want.
 
 ### **Third step: Deploy the application online**
-With the images stored in the Codefresh registry, we just have to go to the Docker Swarm > Compositions section of Codefresh and create a new composition to run all the modules. You can use the content of the docker-compose.yml file we already have at this repository (remember to change the URI of each image by the URI you have generated when the image is built).
+With the images stored in the Codefresh registry, we just have to go to the Docker Swarm > Compositions section of Codefresh and create a new composition to run all the modules. You can use the content of the docker-compose.yml file we already have at this repository ++ **(remember to change the URI of each image by the URI you have generated when the image is built)**.
 After that, you can click on the Launch button (the one with the rocket image) and after a short period of time, your application will be running online (for a limited amount of hours, unless you have a premium account).
 
 ### **Fourth step: Using the application**
